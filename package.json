@@ -1,0 +1,15 @@
+{
+  "name": "split-p",
+  "version": "1.0.0",
+  "main": "./bin/main.js",
+  "scripts": {
+    "build": "pkg bin/main.js --target latest --output dist/split-p"
+  },
+  "bin": {
+    "split-p": "./bin/main.js"
+  },
+  "dependencies": {
+    "getopts": "^2.3.0",
+    "pkg": "^4.4.0"
+  }
+}
